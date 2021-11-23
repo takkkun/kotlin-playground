@@ -23,3 +23,9 @@ Kotlinをおためしで書くための環境です。公式の[Kotlin Playgroun
 ```
 $ ./gradlew jar && java -jar build/libs/kotlin-playground.jar
 ```
+
+## 遊び方
+
+`src/main/kotlin` ディレクトリ以下であればKotlinのファイルを認識するので、ご自由にファイルを追加し、遊んでみてください。
+
+ただしエントリーポイントはMain.ktファイルのmainメソッドに固定されています。これだけは削除しない方が吉です。
